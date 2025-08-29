@@ -51,13 +51,17 @@ void draw(){
   // 3 % 3 = 0
  
   //Add the code for 6.c here
-  if(counter == 0) {
-    red = rowCounter*10;
-    green = rowCounter*20;
-    blue = rowCounter*5;
-  } else {
-    red = 255;
-    green = 255;
-    blue = 255;
-  }
+  red = counter == 0 ? (int)random(255) : 255;
+  green = counter == 0 ? (int)random(255) : 255;
+  blue = counter == 0 ? (int)random(255) : 255;
+  
+  //if(counter == 0) {
+  //  red = rowCounter*10;
+  //  green = rowCounter*20;
+  //  blue = rowCounter*5;
+  //} else {
+  //  red = 255;
+  //  green = 255;
+  //  blue = 255;
+  //}
 }
