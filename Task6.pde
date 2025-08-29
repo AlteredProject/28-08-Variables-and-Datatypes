@@ -56,9 +56,9 @@ void draw(){
   blue = counter == 0 ? (int)random(255) : 255;
   
   //if(counter == 0) {
-  //  red = rowCounter*10;
-  //  green = rowCounter*20;
-  //  blue = rowCounter*5;
+  //  red = (int)random(255);
+  //  green = (int)random(255);
+  //  blue = (int)random(255);
   //} else {
   //  red = 255;
   //  green = 255;
